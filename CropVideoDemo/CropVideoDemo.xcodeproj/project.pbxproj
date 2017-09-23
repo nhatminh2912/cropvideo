@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10FDCF61F6B88EE002FBB53 /* ChosenAlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FDCF51F6B88EE002FBB53 /* ChosenAlbumVC.swift */; };
+		E10FDCFA1F6B8F4C002FBB53 /* ChosenAlbumVCCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FDCF91F6B8F4C002FBB53 /* ChosenAlbumVCCustomCell.swift */; };
+		E10FDCFC1F6BBADD002FBB53 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FDCFB1F6BBADD002FBB53 /* Video.swift */; };
+		E14B89EB1F6FBAD100009954 /* CropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B89EA1F6FBAD100009954 /* CropVC.swift */; };
+		E14F5D101F62751000F64A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F5D0F1F62751000F64A94 /* AppDelegate.swift */; };
+		E14F5D151F62751000F64A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14F5D131F62751000F64A94 /* Main.storyboard */; };
+		E14F5D171F62751000F64A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14F5D161F62751000F64A94 /* Assets.xcassets */; };
+		E14F5D1A1F62751000F64A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14F5D181F62751000F64A94 /* LaunchScreen.storyboard */; };
+		E14F5D251F62751100F64A94 /* CropVideoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F5D241F62751100F64A94 /* CropVideoDemoTests.swift */; };
+		E14F5D301F62751100F64A94 /* CropVideoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F5D2F1F62751100F64A94 /* CropVideoDemoUITests.swift */; };
+		E14F5D3E1F62A58600F64A94 /* MyVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F5D3D1F62A58600F64A94 /* MyVideoVC.swift */; };
+		E14F5D421F62A62C00F64A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F5D411F62A62C00F64A94 /* ViewController.swift */; };
+		E184A8161F725B9A00504368 /* pauseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = E184A8151F725B9A00504368 /* pauseBtn.png */; };
+		E184A8181F725CFF00504368 /* playBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = E184A8171F725CFF00504368 /* playBtn.png */; };
+		E1CA64861F6A8D7200125D26 /* AllAlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CA64851F6A8D7200125D26 /* AllAlbumsVC.swift */; };
+		E1CA64881F6A8F0500125D26 /* AllAlbumsVCCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CA64871F6A8F0500125D26 /* AllAlbumsVCCustomCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E14F5D211F62751100F64A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14F5D041F62751000F64A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14F5D0B1F62751000F64A94;
+			remoteInfo = CropVideoDemo;
+		};
+		E14F5D2C1F62751100F64A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14F5D041F62751000F64A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14F5D0B1F62751000F64A94;
+			remoteInfo = CropVideoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E10FDCF51F6B88EE002FBB53 /* ChosenAlbumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosenAlbumVC.swift; sourceTree = "<group>"; };
+		E10FDCF91F6B8F4C002FBB53 /* ChosenAlbumVCCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosenAlbumVCCustomCell.swift; sourceTree = "<group>"; };
+		E10FDCFB1F6BBADD002FBB53 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E14B89EA1F6FBAD100009954 /* CropVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropVC.swift; sourceTree = "<group>"; };
+		E14F5D0C1F62751000F64A94 /* CropVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14F5D0F1F62751000F64A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E14F5D141F62751000F64A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E14F5D161F62751000F64A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14F5D191F62751000F64A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E14F5D1B1F62751000F64A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14F5D201F62751100F64A94 /* CropVideoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropVideoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14F5D241F62751100F64A94 /* CropVideoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropVideoDemoTests.swift; sourceTree = "<group>"; };
+		E14F5D261F62751100F64A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14F5D2B1F62751100F64A94 /* CropVideoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropVideoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14F5D2F1F62751100F64A94 /* CropVideoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropVideoDemoUITests.swift; sourceTree = "<group>"; };
+		E14F5D311F62751100F64A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14F5D3D1F62A58600F64A94 /* MyVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVideoVC.swift; sourceTree = "<group>"; };
+		E14F5D411F62A62C00F64A94 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E184A8151F725B9A00504368 /* pauseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseBtn.png; sourceTree = "<group>"; };
+		E184A8171F725CFF00504368 /* playBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playBtn.png; sourceTree = "<group>"; };
+		E1CA64851F6A8D7200125D26 /* AllAlbumsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAlbumsVC.swift; sourceTree = "<group>"; };
+		E1CA64871F6A8F0500125D26 /* AllAlbumsVCCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAlbumsVCCustomCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14F5D091F62751000F64A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14F5D1D1F62751100F64A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14F5D281F62751100F64A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10FDCF71F6B89E8002FBB53 /* All Albums */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA64851F6A8D7200125D26 /* AllAlbumsVC.swift */,
+				E1CA64871F6A8F0500125D26 /* AllAlbumsVCCustomCell.swift */,
+			);
+			name = "All Albums";
+			sourceTree = "<group>";
+		};
+		E10FDCF81F6B8A02002FBB53 /* Chosen Album */ = {
+			isa = PBXGroup;
+			children = (
+				E10FDCF51F6B88EE002FBB53 /* ChosenAlbumVC.swift */,
+				E10FDCF91F6B8F4C002FBB53 /* ChosenAlbumVCCustomCell.swift */,
+				E10FDCFB1F6BBADD002FBB53 /* Video.swift */,
+			);
+			name = "Chosen Album";
+			sourceTree = "<group>";
+		};
+		E14B89E91F6FBA2000009954 /* Crop View */ = {
+			isa = PBXGroup;
+			children = (
+				E14B89EA1F6FBAD100009954 /* CropVC.swift */,
+			);
+			name = "Crop View";
+			sourceTree = "<group>";
+		};
+		E14F5D031F62751000F64A94 = {
+			isa = PBXGroup;
+			children = (
+				E14F5D0E1F62751000F64A94 /* CropVideoDemo */,
+				E14F5D231F62751100F64A94 /* CropVideoDemoTests */,
+				E14F5D2E1F62751100F64A94 /* CropVideoDemoUITests */,
+				E14F5D0D1F62751000F64A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14F5D0D1F62751000F64A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14F5D0C1F62751000F64A94 /* CropVideoDemo.app */,
+				E14F5D201F62751100F64A94 /* CropVideoDemoTests.xctest */,
+				E14F5D2B1F62751100F64A94 /* CropVideoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14F5D0E1F62751000F64A94 /* CropVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E184A8141F7258E800504368 /* Source */,
+				E14F5D0F1F62751000F64A94 /* AppDelegate.swift */,
+				E14F5D411F62A62C00F64A94 /* ViewController.swift */,
+				E16C37711F67F5AE005C68A3 /* Crop Video */,
+				E16C37721F67F5C2005C68A3 /* My Video */,
+				E14F5D131F62751000F64A94 /* Main.storyboard */,
+				E14F5D161F62751000F64A94 /* Assets.xcassets */,
+				E14F5D181F62751000F64A94 /* LaunchScreen.storyboard */,
+				E14F5D1B1F62751000F64A94 /* Info.plist */,
+			);
+			path = CropVideoDemo;
+			sourceTree = "<group>";
+		};
+		E14F5D231F62751100F64A94 /* CropVideoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E14F5D241F62751100F64A94 /* CropVideoDemoTests.swift */,
+				E14F5D261F62751100F64A94 /* Info.plist */,
+			);
+			path = CropVideoDemoTests;
+			sourceTree = "<group>";
+		};
+		E14F5D2E1F62751100F64A94 /* CropVideoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E14F5D2F1F62751100F64A94 /* CropVideoDemoUITests.swift */,
+				E14F5D311F62751100F64A94 /* Info.plist */,
+			);
+			path = CropVideoDemoUITests;
+			sourceTree = "<group>";
+		};
+		E16C37711F67F5AE005C68A3 /* Crop Video */ = {
+			isa = PBXGroup;
+			children = (
+				E10FDCF71F6B89E8002FBB53 /* All Albums */,
+				E10FDCF81F6B8A02002FBB53 /* Chosen Album */,
+				E14B89E91F6FBA2000009954 /* Crop View */,
+			);
+			name = "Crop Video";
+			sourceTree = "<group>";
+		};
+		E16C37721F67F5C2005C68A3 /* My Video */ = {
+			isa = PBXGroup;
+			children = (
+				E14F5D3D1F62A58600F64A94 /* MyVideoVC.swift */,
+			);
+			name = "My Video";
+			sourceTree = "<group>";
+		};
+		E184A8141F7258E800504368 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E184A8151F725B9A00504368 /* pauseBtn.png */,
+				E184A8171F725CFF00504368 /* playBtn.png */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14F5D0B1F62751000F64A94 /* CropVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14F5D341F62751100F64A94 /* Build configuration list for PBXNativeTarget "CropVideoDemo" */;
+			buildPhases = (
+				E14F5D081F62751000F64A94 /* Sources */,
+				E14F5D091F62751000F64A94 /* Frameworks */,
+				E14F5D0A1F62751000F64A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropVideoDemo;
+			productName = CropVideoDemo;
+			productReference = E14F5D0C1F62751000F64A94 /* CropVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E14F5D1F1F62751100F64A94 /* CropVideoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14F5D371F62751100F64A94 /* Build configuration list for PBXNativeTarget "CropVideoDemoTests" */;
+			buildPhases = (
+				E14F5D1C1F62751100F64A94 /* Sources */,
+				E14F5D1D1F62751100F64A94 /* Frameworks */,
+				E14F5D1E1F62751100F64A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14F5D221F62751100F64A94 /* PBXTargetDependency */,
+			);
+			name = CropVideoDemoTests;
+			productName = CropVideoDemoTests;
+			productReference = E14F5D201F62751100F64A94 /* CropVideoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E14F5D2A1F62751100F64A94 /* CropVideoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14F5D3A1F62751100F64A94 /* Build configuration list for PBXNativeTarget "CropVideoDemoUITests" */;
+			buildPhases = (
+				E14F5D271F62751100F64A94 /* Sources */,
+				E14F5D281F62751100F64A94 /* Frameworks */,
+				E14F5D291F62751100F64A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14F5D2D1F62751100F64A94 /* PBXTargetDependency */,
+			);
+			name = CropVideoDemoUITests;
+			productName = CropVideoDemoUITests;
+			productReference = E14F5D2B1F62751100F64A94 /* CropVideoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14F5D041F62751000F64A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "inest-01";
+				TargetAttributes = {
+					E14F5D0B1F62751000F64A94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A6LHZJ6CUK;
+						ProvisioningStyle = Automatic;
+					};
+					E14F5D1F1F62751100F64A94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A6LHZJ6CUK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E14F5D0B1F62751000F64A94;
+					};
+					E14F5D2A1F62751100F64A94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A6LHZJ6CUK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E14F5D0B1F62751000F64A94;
+					};
+				};
+			};
+			buildConfigurationList = E14F5D071F62751000F64A94 /* Build configuration list for PBXProject "CropVideoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E14F5D031F62751000F64A94;
+			productRefGroup = E14F5D0D1F62751000F64A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14F5D0B1F62751000F64A94 /* CropVideoDemo */,
+				E14F5D1F1F62751100F64A94 /* CropVideoDemoTests */,
+				E14F5D2A1F62751100F64A94 /* CropVideoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14F5D0A1F62751000F64A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14F5D1A1F62751000F64A94 /* LaunchScreen.storyboard in Resources */,
+				E184A8181F725CFF00504368 /* playBtn.png in Resources */,
+				E184A8161F725B9A00504368 /* pauseBtn.png in Resources */,
+				E14F5D171F62751000F64A94 /* Assets.xcassets in Resources */,
+				E14F5D151F62751000F64A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14F5D1E1F62751100F64A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14F5D291F62751100F64A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14F5D081F62751000F64A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10FDCF61F6B88EE002FBB53 /* ChosenAlbumVC.swift in Sources */,
+				E14F5D101F62751000F64A94 /* AppDelegate.swift in Sources */,
+				E10FDCFC1F6BBADD002FBB53 /* Video.swift in Sources */,
+				E10FDCFA1F6B8F4C002FBB53 /* ChosenAlbumVCCustomCell.swift in Sources */,
+				E1CA64861F6A8D7200125D26 /* AllAlbumsVC.swift in Sources */,
+				E14B89EB1F6FBAD100009954 /* CropVC.swift in Sources */,
+				E14F5D421F62A62C00F64A94 /* ViewController.swift in Sources */,
+				E14F5D3E1F62A58600F64A94 /* MyVideoVC.swift in Sources */,
+				E1CA64881F6A8F0500125D26 /* AllAlbumsVCCustomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14F5D1C1F62751100F64A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14F5D251F62751100F64A94 /* CropVideoDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14F5D271F62751100F64A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14F5D301F62751100F64A94 /* CropVideoDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E14F5D221F62751100F64A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14F5D0B1F62751000F64A94 /* CropVideoDemo */;
+			targetProxy = E14F5D211F62751100F64A94 /* PBXContainerItemProxy */;
+		};
+		E14F5D2D1F62751100F64A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14F5D0B1F62751000F64A94 /* CropVideoDemo */;
+			targetProxy = E14F5D2C1F62751100F64A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E14F5D131F62751000F64A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14F5D141F62751000F64A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E14F5D181F62751000F64A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14F5D191F62751000F64A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E14F5D321F62751100F64A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E14F5D331F62751100F64A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14F5D351F62751100F64A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6LHZJ6CUK;
+				INFOPLIST_FILE = CropVideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inest-01.CropVideoDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E14F5D361F62751100F64A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6LHZJ6CUK;
+				INFOPLIST_FILE = CropVideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inest-01.CropVideoDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E14F5D381F62751100F64A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6LHZJ6CUK;
+				INFOPLIST_FILE = CropVideoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inest-01.CropVideoDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CropVideoDemo.app/CropVideoDemo";
+			};
+			name = Debug;
+		};
+		E14F5D391F62751100F64A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6LHZJ6CUK;
+				INFOPLIST_FILE = CropVideoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inest-01.CropVideoDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CropVideoDemo.app/CropVideoDemo";
+			};
+			name = Release;
+		};
+		E14F5D3B1F62751100F64A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A6LHZJ6CUK;
+				INFOPLIST_FILE = CropVideoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inest-01.CropVideoDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CropVideoDemo;
+			};
+			name = Debug;
+		};
+		E14F5D3C1F62751100F64A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A6LHZJ6CUK;
+				INFOPLIST_FILE = CropVideoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inest-01.CropVideoDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CropVideoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14F5D071F62751000F64A94 /* Build configuration list for PBXProject "CropVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14F5D321F62751100F64A94 /* Debug */,
+				E14F5D331F62751100F64A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14F5D341F62751100F64A94 /* Build configuration list for PBXNativeTarget "CropVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14F5D351F62751100F64A94 /* Debug */,
+				E14F5D361F62751100F64A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14F5D371F62751100F64A94 /* Build configuration list for PBXNativeTarget "CropVideoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14F5D381F62751100F64A94 /* Debug */,
+				E14F5D391F62751100F64A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14F5D3A1F62751100F64A94 /* Build configuration list for PBXNativeTarget "CropVideoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14F5D3B1F62751100F64A94 /* Debug */,
+				E14F5D3C1F62751100F64A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14F5D041F62751000F64A94 /* Project object */;
+}
